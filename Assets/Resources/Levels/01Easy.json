@@ -1,0 +1,810 @@
+{
+	"name" : "Easy",
+	"id" : "1",
+	"soomlaID" : "free",
+	"difficulty" : "1",
+	"imagepack" : "ImgPackBase",
+	"levels" : [{
+			"id" : 1,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["manusi.png", "caciula.png", "costum.png", "cravata.png", "clothes"],
+			"row2" : ["fulg de zapada.png", "ploaie.png", "fulger.png", "tornada.png", "natural phenomenon"],
+			"row3" : ["telescop.png", "luna.png", "soare.png", "cometa.png", "astronomy"],
+			"row4" : ["binoclu.png", "frigider.png", "lustra", "ananas.png", "other"],
+			"label" : "1",
+			"depends" : 0
+		}, {
+			"id" : 2,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["tigru.png", "elefant.png", "cerb.png", "crocodil.png", "wild animal"],
+			"row2" : ["rosie.png", "castravete.png", "ardei.png", "ceapa.png", "vegetables"],
+			"row3" : ["lopata.png", "furca.png", "grebla.png", "sapa.png", "tools"],
+			"row4" : ["banana.png", "mar.png", "pantofi.png", "scaun.png", "other"],
+			"label" : "2",
+			"depends" : 0
+		}, {
+			"id" : 3,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["felinar", "bec.png", "lustra.png", "lumanare.png", "lights"],
+			"row2" : ["scaun.png", "masa.png ", "pat.png", "dulap.png", "furniture"],
+			"row3" : ["pistol.png", "arbaleta.png", "pusca cu luneta.png", "mitraliera.png", "weapons"],
+			"row4" : ["maneki neko.png", "tac de biliard.png", "boxe.png", "cometa.png", "other"],
+			"label" : "3",
+			"depends" : 0
+		}, {
+			"id" : 4,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["chitara.png", "vioara.png", "trompeta.png", "toba.png", "musical instrument"],
+			"row2" : ["masina.png", "tir.png", "autobuz.png", "motocicleta.png", "vehicles"],
+			"row3" : ["schiuri.png", "patine.png", "minge de fotbal.png", "tac de biliard.png", "sports"],
+			"row4" : ["bocanci.png", "boxe.png", "fulg de zapada.png", "rosie.png", "other"],
+			"label" : "4",
+			"depends" : 0
+		}, {
+			"id" : 5,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["rosie.png", "castravete.png", "ardei.png", "ceapa.png", "vegetables"],
+			"row2" : ["aragaz.png", "frigider.png", "cuptor.png", "aer conditionat.png", "appliances"],
+			"row3" : ["bratara.png", "ceas de mana.png", "inel.png", "cercei.png", "accessories"],
+			"row4" : ["pepene.png", "telefon.png", "mar.png", "avocado.png", "other"],
+			"label" : "5",
+			"depends" : 0
+		}, {
+			"id" : 6,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["manusi.png", "caciula.png", "costum.png", "cravata.png", "clothes"],
+			"row2" : ["pepene.png", "portocala.png", "mar.png", "banana.png", "fruits"],
+			"row3" : ["bocanci.png", "sandale.png", "pantofi.png", "adidas.png", "footwear"],
+			"row4" : ["planta carnivora.png", "rosie.png", "castravete.png", "ochelari de citit.png", "other"],
+			"label" : "6",
+			"depends" : 0
+		}, {
+			"id" : 7,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["pisica.png", "caine.png", "gaina.png", "porc.png", "domestic animal"],
+			"row2" : ["tigaie.png", "farfurii.png", "lingura.png", "cutit.png", "cooking tools"],
+			"row3" : ["fulg de zapada.png", "ploaie.png", "fulger.png", "tornada.png", "natural phenomenon"],
+			"row4" : ["aer conditionat.png", "umbrela de soare.png", "bec.png", "cerb.png", "other"],
+			"label" : "7",
+			"depends" : 0
+		}, {
+			"id" : 8,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["stilou.png", "caiet.png", "ghiozdan.png", "creion.png", "school"],
+			"row2" : ["telescop.png", "luna.png", "soare.png", "cometa.png", "astronomy"],
+			"row3" : ["frigider.png", "televizor.png", "calculator.png", "aer conditionat.png", "uses electricity"],
+			"row4" : ["binoclu.png", "lupa.png", "ochelari de citit.png", "masina.png", "other"],
+			"label" : "8",
+			"depends" : 0
+		}, {
+			"id" : 9,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["bocanci.png", "sandale.png", "pantofi.png", "adidas.png", "shoes"],
+			"row2" : ["tigru.png", "elefant.png", "cerb.png", "crocodil.png", "wild animal"],
+			"row3" : ["pisica.png", "caine.png", "gaina.png", "porc.png", "domestic animal"],
+			"row4" : ["schiuri.png", "2 cirese legate prin codita.png", "arbaleta.png", "minge de fotbal.png", "other"],
+			"label" : "9",
+			"depends" : 0
+		}, {
+			"id" : 10,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["obama.png", "jfk.png", "lincoln.png", "rushmore.png", "president"],
+			"row2" : ["ceas de mana.png", "digital.png", "desteptator.png", "turn cu ceas.png", "clock"],
+			"row3" : ["soare.png", "manusi.png", "bocanci.png", "foc.png", "warmth"],
+			"row4" : ["caine.png", "scaun.png", "masa.png", "pantofi.png", "other"],
+			"label" : "10",
+			"depends" : 0
+		}, {
+			"id" : 11,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["unicorn.png", "curcubeu.png", "semafor.png", "acuarele.png", "multiple colors"],
+			"row2" : ["bratara.png", "ceas de mana.png", "inel.png", "cercei.png", "accessories"],
+			"row3" : ["fulg de zapada.png", "ploaie.png", "fulger.png", "tornada.png", "natural phenomenon"],
+			"row4" : ["frigider.png", "turn cu ceas.png", "bocanci.png", "patine.png", "other"],
+			"label" : "11",
+			"depends" : 0
+		}, {
+			"id" : 12,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["bocanci.png", "sandale.png", "pantofi.png", "adidas.png", "footwear"],
+			"row2" : ["telescop.png", "luna.png", "soare.png", "cometa.png", "astronomy"],
+			"row3" : ["pisica.png", "caine.png", "gaina.png", "porc.png", "domestic animal"],
+			"row4" : ["tigru.png", "schiuri.png", "ochelari de soare.png", "minge de fotbal.png", "other"],
+			"label" : "12",
+			"depends" : 0
+		}, {
+			"id" : 13,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["tigru.png", "elefant.png", "cerb.png", "crocodil.png", "wild animal"],
+			"row2" : ["frigider.png", "aer conditionat.png", "fulg de zapada.png", "iglu.png", "cold"],
+			"row3" : ["stilou.png", "caiet.png", "ghiozdan.png", "creion.png", "school"],
+			"row4" : ["masa.png", "porc.png", "grebla.png", "monitor.png", "other"],
+			"label" : "13",
+			"depends" : 0
+		}, {
+			"id" : 14,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["scaun.png", "masa.png ", "porc.png", "cerb.png", "four legs"],
+			"row2" : ["telefon.png", "televizor.png", "calculator.png", "digital.png", "electronic device"],
+			"row3" : ["felinar", "bec.png", "lustra.png", "lumanare.png", "lights"],
+			"row4" : ["binoclu.png", "android.png", "ochelari de soare.png", "aragaz.png", "other"],
+			"label" : "14",
+			"depends" : 0
+		}, {
+			"id" : 15,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["pistol.png", "arbaleta.png", "pusca cu luneta.png", "mitraliera.png", "weapons"],
+			"row2" : ["masina.png", "tir.png", "autobuz.png", "motocicleta.png", "vehicles"],
+			"row3" : ["rosie.png", "castravete.png", "ardei.png", "ceapa.png", "vegetables"],
+			"row4" : ["mar.png", "soare.png", "lopata.png", "ananas.png", "other"],
+			"label" : "15",
+			"depends" : 0
+		}, {
+			"id" : 16,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["pepene.png", "portocala.png", "mar.png", "banana.png", "fruits"],
+			"row2" : ["schiuri.png", "cercuri olimpice.png", "minge de fotbal.png", "casca 5.png", "sports"],
+			"row3" : ["chitara.png", "vioara.png", "trompeta.png", "toba.png", "musical instrument"],
+			"row4" : ["castravete.png", "boxe.png", "manusi.png", "bocanci.png", "other"],
+			"label" : "16",
+			"depends" : 0
+		}, {
+			"id" : 17,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["stilou.png", "caiet.png", "ghiozdan.png", "abac.png", "school"],
+			"row2" : ["pisica.png", "caine.png", "gaina.png", "porc.png", "domestic animal"],
+			"row3" : ["fulg de zapada.png", "ploaie.png", "fulger.png", "tornada.png", "natural phenomenon"],
+			"row4" : ["schiuri.png", "ochelari de citit.png", "soare.png", "elefant.png", "other"],
+			"label" : "17",
+			"depends" : 0
+		}, {
+			"id" : 18,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["tigru.png", "elefant.png", "cerb.png", "crocodil.png", "wild animal"],
+			"row2" : ["felinar", "bec.png", "lustra.png", "lumanare.png", "lights"],
+			"row3" : ["tigaie.png", "farfurii.png", "lingura.png", "cutit.png", "cooking tools"],
+			"row4" : ["frigider.png", "luna.png", "aer conditionat.png", "pantofi.png", "other"],
+			"label" : "18",
+			"depends" : 0
+		}, {
+			"id" : 19,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["telescop.png", "luna.png", "soare.png", "cometa.png", "astronomy"],
+			"row2" : ["scaun.png", "masa.png ", "pat.png", "dulap.png", "furniture"],
+			"row3" : ["telefon.png", "televizor.png", "calculator.png", "digital.png", "display"],
+			"row4" : ["luneta.png", "lupa.png", "frigider.png", "lingura.png", "other"],
+			"label" : "19",
+			"depends" : 0
+		}, {
+			"id" : 20,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["fulg de zapada.png", "ploaie.png", "fulger.png", "tornada.png", "natural phenomenon"],
+			"row2" : ["bratara.png", "ceas de mana.png", "inel.png", "cercei.png", "accessories"],
+			"row3" : ["aragaz.png", "foc.png", "soare.png", "lumanare.png", "burning"],
+			"row4" : ["monitor.png", "patine.png", "umbrela de soare.png", "lustra.png", "other"],
+			"label" : "20",
+			"depends" : 0
+		}, {
+			"id" : 21,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["castel.png", "white house.png", "coliba.png", "casa piatra.png", "buildings"],
+			"row2" : ["armor.png", "calaret.png", "scut.png", "arc cu sageata.png", "medieval weapons"],
+			"row3" : ["tir.png", "masina.png", "motocicleta.png", "taxi.png", "vehicles"],
+			"row4" : ["schiuri.png", "2 cirese legate prin codita.png", "pistol.png", "minge de fotbal.png", "other"],
+			"label" : "21",
+			"depends" : 0
+		}, {
+			"id" : 22,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["microfon.png", "chitara.png", "toba.png", "vioara.png", "music"],
+			"row2" : ["2 cirese legate prin codita.png", "bocanci.png", "manusi.png", "cercei.png", "pairs"],
+			"row3" : ["cal.png", "calaret.png", "cal sah.png", "unicorn.png", "horse"],
+			"row4" : ["lopata.png", "frigider.png", "planta.png", "lupa.png", "other"],
+			"label" : "22",
+			"depends" : 0
+		}, {
+			"id" : 23,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["cutit.png", "lingura.png", "farfurii.png", "aragaz.png", "cooking"],
+			"row2" : ["stop.png", "back.png", "open.png", "pericol.png", "sign"],
+			"row3" : ["ulcele.png", "acuarele.png", "tablou floare.png", "sculptura africana.png", "art"],
+			"row4" : ["frigider.png", "turn cu ceas.png", "bocanci.png", "patine.png", "other"],
+			"label" : "23",
+			"depends" : 0
+		}, {
+			"id" : 24,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["aragaz.png", "frigider.png", "cuptor.png", "aer conditionat.png", "appliances"],
+			"row2" : ["pasare.png", "fluture.png", "eros.png", "porumbel.png", "wings"],
+			"row3" : ["ochelari de citit.png", "oglinda crapata.png", "geam.png", "clepsidra.png", "glass"],
+			"row4" : ["tigru.png", "schiuri.png", "calculator.png", "minge de fotbal.png", "other"],
+			"label" : "24",
+			"depends" : 0
+		}, {
+			"id" : 25,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["scut.png", "casca 5.png", "pistol.png", "castel.png", "protection"],
+			"row2" : ["desteptator.png", "digital.png", "turn cu ceas.png", "ceas de mana.png", "time"],
+			"row3" : ["unicorn.png", "statuie piatra.png", "sabie piatra.png", "eros.png", "mythology"],
+			"row4" : ["masa.png", "porc.png", "grebla.png", "monitor.png", "other"],
+			"label" : "25",
+			"depends" : 0
+		}, {
+			"id" : 26,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["grafic.png", "dolari.png", "xy.png", "operatie.png", "increase"],
+			"row2" : ["tinta tir.png", "cercuri olimpice.png", "roata de balci.png", "tinta.png", "circles"],
+			"row3" : ["ananas.png", "mar.png", "banana.png", "pepene.png", "fruits"],
+			"row4" : ["fulger.png", "soare.png", "pericol.png", "aragaz.png", "other"],
+			"label" : "26",
+			"depends" : 0
+		}, {
+			"id" : 27,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["mitraliera.png", "pistol.png", "pusca cu luneta.png", "arbaleta.png", "weapons"],
+			"row2" : ["toba.png", "vioara.png", "chitara.png", "trompeta.png", "instruments"],
+			"row3" : ["flori.png", "bec.png", "soare.png", "banana.png", "yellow"],
+			"row4" : ["mar.png", "lupa.png", "lopata.png", "ananas.png", "other"],
+			"label" : "27",
+			"depends" : 0
+		}, {
+			"id" : 28,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["unicorn.png", "statuie piatra.png", "sabie piatra.png", "eros.png", "mythology"],
+			"row2" : ["casca 5.png", "ardei.png", "stop.png", "rosie.png", "red"],
+			"row3" : ["acuarele.png", "ulcele.png", "chitara.png", "telescop.png", "hobby"],
+			"row4" : ["castravete.png", "lopata.png", "manusi.png", "sandale.png", "other"],
+			"label" : "28",
+			"depends" : 0
+		}, {
+			"id" : 29,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["zombie.png", "sculptura africana.png", "om confuz.png", "emoticon bucurie.png", "face"],
+			"row2" : ["cercei.png", "inel.png", "bratara.png", "ceas de mana.png", "luxury"],
+			"row3" : ["casa piatra.png", "sabie piatra.png", "zid de piatra.png", "statuie piatra.png", "stone"],
+			"row4" : ["schiuri.png", "ochelari de citit.png", "soare.png", "curcubeu.png", "other"],
+			"label" : "29",
+			"depends" : 0
+		}, {
+			"id" : 30,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["foc.png", "caciula.png", "soare.png", "manusi.png", "warmth"],
+			"row2" : ["carma.png", "volan.png", "roata de balci.png", "roaba.png", "wheel"],
+			"row3" : ["caine.png", "pisica.png", "porc.png", "gaina.png", "domestic animal"],
+			"row4" : ["frigider.png", "luna.png", "aer conditionat.png", "sandale.png", "other"],
+			"label" : "30",
+			"depends" : 0
+		}, {
+			"id" : 31,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["grafic.png", "planta.png", "porumbel.png", "curcubeu.png", "hope"],
+			"row2" : ["semafor.png", "politist stop.png", "taxi.png", "autobuz.png", "traffic"],
+			"row3" : ["scara confuzie.png", "emoticon confuzie.png", "ceasuri confuzie.png", "om confuz.png", "confusion"],
+			"row4" : ["manusi.png", "pat.png", "binoclu.png", "bocanci.png", "other"],
+			"label" : "31",
+			"depends" : 0
+		}, {
+			"id" : 32,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["pistol.png", "pusca cu luneta.png", "mitraliera.png", "arbaleta.png", "shooting"],
+			"row2" : ["pahar.png", "artificii.png", "sticla sampanie.png", "microfon.png", "party"],
+			"row3" : ["cuptor.png", "frigider.png", "masa.png ", "scaun.png", "kitchen objects"],
+			"row4" : ["mar.png", "pepene.png", "imprimanta.png", "sabie piatra.png", "other"],
+			"label" : "32",
+			"depends" : 0
+		}, {
+			"id" : 33,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["pericol.png", "stop.png", "semafor.png", "politist stop.png", "stop"],
+			"row2" : ["bocanci.png", "sandale.png", "pantofi.png", "adidas.png", "footwear"],
+			"row3" : ["castel.png", "calaret.png", "sabie piatra.png", "arc cu sageata.png", "middle ages"],
+			"row4" : ["patine.png", "morcov.png", "minge de fotbal.png", "castravete.png", "other"],
+			"label" : "33",
+			"depends" : 0
+		}, {
+			"id" : 34,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["barca.png", "umbrela de soare.png", "pat.png", "chitara.png", "relaxation"],
+			"row2" : ["ceas de mana.png", "cercei.png", "inel.png", "ochelari de soare.png", "accessories"],
+			"row3" : ["lumanare.png", "soare.png", "foc.png", "felinar.png", "burning"],
+			"row4" : ["schiuri.png", "stilou.png", "manusi.png", "elefant.png", "other"],
+			"label" : "34",
+			"depends" : 0
+		}, {
+			"id" : 35,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["telefon.png", "monitor.png", "televizor.png", "calculator.png", "technology"],
+			"row2" : ["felinar", "bec.png", "lustra.png", "lumanare.png", "lights"],
+			"row3" : ["taxi.png", "avion.png", "autobuz.png", "masina.png", "transportation"],
+			"row4" : ["planta.png", "luna.png", "zid de piatra.png", "pantofi.png", "other"],
+			"label" : "35",
+			"depends" : 0
+		}, {
+			"id" : 36,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["elefant.png", "cerb.png", "foca.png", "crocodil.png", "wild animal"],
+			"row2" : ["flori.png", "bec.png", "soare.png", "banana.png", "yellow"],
+			"row3" : ["caiet.png", "creion.png", "stilou.png", "ghiozdan.png", "school"],
+			"row4" : ["luneta.png", "lupa.png", "frigider.png", "lingura.png", "other"],
+			"label" : "36",
+			"depends" : 0
+		}, {
+			"id" : 37,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["2 cirese legate prin codita.png", "bocanci.png", "ceasuri confuzie.png", "cercei.png", "pairs"],
+			"row2" : ["ploaie.png", "fulger.png", "tornada.png", "soare.png", "weather"],
+			"row3" : ["telefon.png", "monitor.png", "calculator.png", "televizor.png", "display"],
+			"row4" : ["cerb.png", "vasc.png", "lingura.png", "carte 5.png", "other"],
+			"label" : "37",
+			"depends" : 0
+		}, {
+			"id" : 38,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["emoticon frica.png", "om frica.png", "soarece frica.png", "zombie.png", "fear"],
+			"row2" : ["bec.png", "felinar.png", "lustra.png", "lumanare.png", "lights"],
+			"row3" : ["trompeta.png", "chitara.png", "vioara.png", "toba.png", "musical instruments"],
+			"row4" : ["ochelari de citit.png", "scaun.png", "microfon.png", "telescop.png", "other"],
+			"label" : "38",
+			"depends" : 0
+		}, {
+			"id" : 39,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["telescop.png", "luna.png", "soare.png", "cometa.png", "astronomy"],
+			"row2" : ["creion.png", "carte.png", "stilou.png", "caiet.png", "writing"],
+			"row3" : ["om injured.png", "om confuz.png", "costum.png", "spate.png", "man"],
+			"row4" : ["pantofi.png", "cutit.png", "calculator.png", "patine.png", "other"],
+			"label" : "39",
+			"depends" : 0
+		}, {
+			"id" : 40,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["ardei.png", "mar.png", "banana.png", "castravete.png", "food"],
+			"row2" : ["carma.png", "busola.png", "harta.png", "barca.png", "navigation"],
+			"row3" : ["iglu.png", "fulg de zapada.png", "aer conditionat.png", "frigider.png", "cold"],
+			"row4" : ["soare.png", "arc cu sageata.png", "arbaleta.png", "minge de fotbal.png", "other"],
+			"label" : "40",
+			"depends" : 0
+		}, {
+			"id" : 41,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["gas mask.png", "pericol.png", "om frica.png", "crocodil.png", "danger"],
+			"row2" : ["casa piatra.png", "coliba.png", "iglu.png", "castel.png", "house"],
+			"row3" : ["grebla.png", "sapa.png", "lopata.png", "furca.png", "tools"],
+			"row4" : ["farfurii.png", "frigider.png", "umbrela de soare.png", "lupa.png", "other"],
+			"label" : "41",
+			"depends" : 0
+		}, {
+			"id" : 42,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["tinta tir.png", "arc cu sageata.png", "arbaleta.png", "eros.png", "arrow"],
+			"row2" : ["desteptator.png", "digital.png", "turn cu ceas.png", "ceas de mana.png", "time"],
+			"row3" : ["scaun.png", "masa.png ", "pat.png", "dulap.png", "furniture"],
+			"row4" : ["soare.png", "ochelari de soare.png", "bocanci.png", "om frica.png", "other"],
+			"label" : "42",
+			"depends" : 0
+		}, {
+			"id" : 43,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["arbaleta.png", "arc cu sageata.png", "binoclu.png", "cerb.png", "hunting"],
+			"row2" : ["carte 5.png", "cal sah.png", "zar 5.png", "cercuri olimpice.png", "games"],
+			"row3" : ["porumbel.png", "eros.png", "fluture.png ", "pasare.png", "wings"],
+			"row4" : ["fulg de zapada.png", "adidas.png", "masa.png", "carma.png", "other"],
+			"label" : "43",
+			"depends" : 0
+		}, {
+			"id" : 44,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["lupa.png", "luneta.png", "telescop.png", "binoclu.png", "magnify"],
+			"row2" : ["costum.png", "cravata.png", "caciula.png", "manusi.png", "clothes"],
+			"row3" : ["artificii.png", "roata de balci.png", "balon.png", "venetia.png", "carnival"],
+			"row4" : ["turn cu ceas.png", "patine.png", "pericol.png", "2 cirese legate prin codita.png", "other"],
+			"label" : "44",
+			"depends" : 0
+		}, {
+			"id" : 45,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["castel.png", "calaret.png", "monument.png", "steagul greciei.png", "flags"],
+			"row2" : ["ardei.png", "rosie.png", "castravete.png", "ceapa.png", "vegetables"],
+			"row3" : ["luneta.png", "tinta tir.png", "harta.png", "tinta.png", "target"],
+			"row4" : ["soare.png", "lingura.png", "tigru.png", "ochelari de soare.png", "other"],
+			"label" : "45",
+			"depends" : 0
+		}, {
+			"id" : 46,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["ploaie.png", "fulger.png", "tornada.png", "soare.png", "weather"],
+			"row2" : ["taxi.png", "avion.png", "autobuz.png", "masina.png", "transportation"],
+			"row3" : ["carte 5.png", "casca 5.png", "palma.png", "politist stop.png", "five"],
+			"row4" : ["mar.png", "nuca de cocos.png", "monitor.png", "luneta.png", "other"],
+			"label" : "46",
+			"depends" : 0
+		}, {
+			"id" : 47,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["digital.png", "unu.png", "operatie.png", "8.png", "numbers"],
+			"row2" : ["carte 5.png", "eros.png", "porumbel.png", "emoticon sarut.png", "love"],
+			"row3" : ["tac de biliard.png", "dulap.png", "masa.png ", "chitara.png", "wooden objects"],
+			"row4" : ["binoclu.png", "cutit.png", "schiuri.png", "umbrela de soare.png", "other"],
+			"label" : "47",
+			"depends" : 0
+		}, {
+			"id" : 48,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["statuie piatra.png", "steagul greciei.png", "parthenon.png", "eros.png", "greece"],
+			"row2" : ["gas mask.png", "venetia.png", "masti teatru.png", "anonymous.png", "mask"],
+			"row3" : ["schiuri.png", "tac de biliard.png", "minge de fotbal.png", "minge de tenis.png", "sports"],
+			"row4" : ["cerb.png", "boxe.png", "fulg de zapada.png", "rosie.png", "other"],
+			"label" : "48",
+			"depends" : 0
+		}, {
+			"id" : 49,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["casca 5.png", "ardei.png", "stop.png", "rosie.png", "red"],
+			"row2" : ["foc.png", "caciula.png", "soare.png", "manusi.png", "warmth"],
+			"row3" : ["arc cu sageata.png", "furca.png", "stilou.png", "creion.png", "sharp"],
+			"row4" : ["pepene.png", "telefon.png", "costum.png", "cometa.png", "other"],
+			"label" : "49",
+			"depends" : 0
+		}, {
+			"id" : 50,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["spate.png", "brat.png", "haltera.png", "inima.png", "muscles"],
+			"row2" : ["bocanci.png", "sandale.png", "pantofi.png", "adidas.png", "footwear"],
+			"row3" : ["sapa.png", "lopata.png", "roaba.png", "flori.png", "garden"],
+			"row4" : ["clepsidra.png", "harta.png", "fulg de zapada.png", "ochelari de citit.png", "other"],
+			"label" : "50",
+			"depends" : 0
+		}, {
+			"id" : 51,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["pisica.png", "caine.png", "gaina.png", "porc.png", "domestic animal"],
+			"row2" : ["arbaleta.png", "tigru.png", "arc cu sageata.png", "pusca cu luneta.png", "hunting"],
+			"row3" : ["brat.png", "picior oase.png", "spate.png", "inima.png", "anatomy"],
+			"row4" : ["aer conditionat.png", "umbrela de soare.png", "bec.png", "farfurii.png", "other"],
+			"label" : "51",
+			"depends" : 0
+		}, {
+			"id" : 52,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["fluture.png ", "pasare.png", "avion.png", "porumbel.png", "flying"],
+			"row2" : ["bratara.png", "cercei.png", "inel.png", "ceas de mana.png", "luxury"],
+			"row3" : ["monitor.png", "telefon.png", "calculator.png", "televizor.png", "devices"],
+			"row4" : ["gaina.png", "lupa.png", "caciula.png", "masina.png", "other"],
+			"label" : "52",
+			"depends" : 0
+		}, {
+			"id" : 53,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["barca.png", "ploaie.png", "picaturi.png", "pahar.png", "water"],
+			"row2" : ["sculptura africana.png", "tablou floare.png", "acuarele.png", "ulcele.png", "art"],
+			"row3" : ["xy.png", "echer.png", "abac.png", "egal.png", "math"],
+			"row4" : ["caine.png", "roaba.png", "pepene.png", "2 cirese legate prin codita.png", "other"],
+			"label" : "53",
+			"depends" : 0
+		}, {
+			"id" : 54,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["minge de tenis.png", "pepene.png ", "portocala.png", "minge de fotbal.png", "round"],
+			"row2" : ["xy.png", "anonymous.png", "hood.png", "telefon.png", "unknown"],
+			"row3" : ["acuarele.png", "semafor.png", "curcubeu.png", "unicorn.png", "multiple colors"],
+			"row4" : ["lingura.png", "fulger.png", "motocicleta.png", "manusi.png", "other"],
+			"label" : "54",
+			"depends" : 0
+		}, {
+			"id" : 55,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["lupa.png", "luneta.png", "telescop.png", "binoclu.png", "magnify"],
+			"row2" : ["grafic.png", "planta.png", "porumbel.png", "curcubeu.png", "hope"],
+			"row3" : ["carma.png", "volan.png", "roata de balci.png", "roaba.png", "wheel"],
+			"row4" : ["fulg de zapada.png", "monitor.png", "scaun.png", "creion.png", "other"],
+			"label" : "55",
+			"depends" : 0
+		}, {
+			"id" : 56,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["fluture.png ", "pasare.png", "avion.png", "porumbel.png", "flying"],
+			"row2" : ["cal.png", "calaret.png", "cal sah.png", "unicorn.png", "horse"],
+			"row3" : ["arc cu sageata.png", "furca.png", "stilou.png", "creion.png", "sharp"],
+			"row4" : ["morcov.png", "aer conditionat.png", "ochelari de citit.png", "ardei.png", "other"],
+			"label" : "56",
+			"depends" : 0
+		}, {
+			"id" : 57,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["cuptor.png", "frigider.png", "masa.png ", "scaun.png", "kitchen"],
+			"row2" : ["ploaie.png", "fulger.png", "tornada.png", "soare.png", "weather"],
+			"row3" : ["grebla.png", "sapa.png", "lopata.png", "furca.png", "tools"],
+			"row4" : ["cerb.png", "barca.png", "luna.png", "pasare.png", "other"],
+			"label" : "57",
+			"depends" : 0
+		}, {
+			"id" : 58,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["bocanci.png", "sandale.png", "pantofi.png", "adidas.png", "footwear"],
+			"row2" : ["emoticon frica.png", "bec.png", "soare.png", "banana.png", "yellow"],
+			"row3" : ["lingura.png", "farfurii.png", "cutit.png", "tigaie.png", "cooking"],
+			"row4" : ["pusca cu luneta.png", "binoclu.png", "ochelari de soare.png", "umbrela de ploaie.png", "other"],
+			"label" : "58",
+			"depends" : 0
+		}, {
+			"id" : 59,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["emoticon frica.png", "om frica.png", "soarece frica.png", "zombie.png", "fear"],
+			"row2" : ["ardei.png", "rosie.png", "castravete.png", "ceapa.png", "vegetables"],
+			"row3" : ["barca.png", "umbrela de soare.png", "pat.png", "chitara.png", "relaxation"],
+			"row4" : ["masina.png", "nuca de cocos.png", "crocodil.png", "taxi.png", "other"],
+			"label" : "59",
+			"depends" : 0
+		}, {
+			"id" : 60,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["brat.png", "picior oase.png", "spate.png", "inima.png", "anatomy"],
+			"row2" : ["arbaleta.png", "arc cu sageata.png", "binoclu.png", "cerb.png", "hunting"],
+			"row3" : ["artificii.png", "roata de balci.png", "balon.png", "venetia.png", "carnival"],
+			"row4" : ["lumanare.png", "unu.png", "lopata.png", "lupa.png", "other"],
+			"label" : "60",
+			"depends" : 0
+		}, {
+			"id" : 61,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["desteptator.png", "digital.png", "turn cu ceas.png", "ceas de mana.png", "time"],
+			"row2" : ["pericol.png", "tornada.png", "nuke.png", "meteor.png", "disaster"],
+			"row3" : ["chitara.png", "scaun.png", "dulap.png", "tac de biliard.png", "wooden objects"],
+			"row4" : ["soare.png", "ceapa.png", "caine.png", "fulger.png", "other"],
+			"label" : "61",
+			"depends" : 0
+		}, {
+			"id" : 62,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["coliba.png", "sculptura africana.png", "elefant.png", "crocodil.png", "africa"],
+			"row2" : ["caiet.png", "creion.png", "stilou.png", "ghiozdan.png", "school"],
+			"row3" : ["pusca cu luneta.png", "mitraliera.png", "tank.png", "arbaleta.png", "shooting"],
+			"row4" : ["clepsidra.png", "cerb.png", "planta.png", "sapa.png", "other"],
+			"label" : "62",
+			"depends" : 0
+		}, {
+			"id" : 63,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["monitor.png", "telefon.png", "calculator.png", "televizor.png", "display"],
+			"row2" : ["boxe.png", "artificii.png", "sticla sampanie.png", "balon.png", "party"],
+			"row3" : ["aragaz.png", "frigider.png", "cuptor.png", "aer conditionat.png", "appliances"],
+			"row4" : ["cravata.png", "turn cu ceas.png", "cometa.png", "caiet.png", "other"],
+			"label" : "63",
+			"depends" : 0
+		}, {
+			"id" : 64,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["stop.png", "back.png", "open.png", "pericol.png", "sign"],
+			"row2" : ["grebla.png", "sapa.png", "lopata.png", "furca.png", "tools"],
+			"row3" : ["gas mask.png", "venetia.png", "masti teatru.png", "anonymous.png", "mask"],
+			"row4" : ["coliba.png", "cravata.png", "politist stop.png", "nuca de cocos.png", "other"],
+			"label" : "64",
+			"depends" : 0
+		}, {
+			"id" : 65,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["2 cirese legate prin codita.png", "bocanci.png", "manusi.png", "cercei.png", "pairs"],
+			"row2" : ["xy.png", "echer.png", "abac.png", "egal.png", "math"],
+			"row3" : ["microfon.png", "chitara.png", "toba.png", "vioara.png", "music"],
+			"row4" : ["ploaie.png", "soare.png", "tac de biliard.png", "turn cu ceas.png", "other"],
+			"label" : "65",
+			"depends" : 0
+		}, {
+			"id" : 66,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["barca.png", "ploaie.png", "picaturi.png", "fulg de zapada.png", "water"],
+			"row2" : ["castel.png", "calaret.png", "steagul spaniei", "steagul greciei.png", "flags"],
+			"row3" : ["lumanare.png", "soare.png", "foc.png", "felinar.png", "burning"],
+			"row4" : ["pistol.png", "ceapa.png", "caine.png", "fulger.png", "other"],
+			"label" : "66",
+			"depends" : 0
+		}, {
+			"id" : 67,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["cutit.png", "lingura.png", "farfurii.png", "cuptor.png", "cooking"],
+			"row2" : ["unicorn.png", "statuie piatra.png", "sabie piatra.png", "eros.png", "mythology"],
+			"row3" : ["digital.png", "unu.png", "operatie.png", "8.png", "numbers"],
+			"row4" : ["crocodil.png", "patine.png", "grafic.png", "manusi.png", "other"],
+			"label" : "67",
+			"depends" : 0
+		}, {
+			"id" : 68,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["bocanci.png", "sandale.png", "pantofi.png", "adidas.png", "footwear"],
+			"row2" : ["om injured.png", "om confuz.png", "costum.png", "spate.png", "man"],
+			"row3" : ["scaun.png", "masa.png ", "pat.png", "dulap.png", "furniture"],
+			"row4" : ["boxe.png", "banana.png", "avocado.png", "tac de biliard.png", "other"],
+			"label" : "68",
+			"depends" : 0
+		}, {
+			"id" : 69,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["tank.png", "pistol.png", "pusca cu luneta.png", "arbaleta.png", "weapons"],
+			"row2" : ["ananas.png", "mar.png", "banana.png", "pepene.png", "fruits"],
+			"row3" : ["tac de biliard.png", "dulap.png", "masa.png ", "poarta.png", "wooden objects"],
+			"row4" : ["caciula.png", "ceapa.png", "lingura.png", "morcov.png", "other"],
+			"label" : "69",
+			"depends" : 0
+		}, {
+			"id" : 70,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["statuie piatra.png", "steagul greciei.png", "parthenon.png", "eros.png", "greece"],
+			"row2" : ["carma.png", "busola.png", "harta.png", "barca.png", "navigation"],
+			"row3" : ["scut.png", "casca 5.png", "pistol.png", "castel.png", "protection"],
+			"row4" : ["tigaie.png", "tigru.png", "nuca de cocos.png", "turn cu ceas.png", "other"],
+			"label" : "70",
+			"depends" : 0
+		}, {
+			"id" : 71,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["ardei.png", "mar.png", "banana.png", "castravete.png", "food"],
+			"row2" : ["tir.png", "masina.png", "motocicleta.png", "taxi.png", "vehicles"],
+			"row3" : ["ceas de mana.png", "cercei.png", "inel.png", "ochelari de soare.png", "accessories"],
+			"row4" : ["binoclu.png", "frigider.png", "bec.png", "cercuri olimpice.png", "other"],
+			"label" : "71",
+			"depends" : 0
+		}, {
+			"id" : 72,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["pistol.png", "pusca cu luneta.png", "mitraliera.png", "arbaleta.png", "shooting"],
+			"row2" : ["pisica.png", "tigru.png", "crocodil.png", "gaina.png", "animals"],
+			"row3" : ["2 cirese legate prin codita.png", "bocanci.png", "manusi.png", "cercei.png", "pairs"],
+			"row4" : ["banana.png", "mar.png", "bec.png", "scaun.png", "other"],
+			"label" : "72",
+			"depends" : 0
+		}, {
+			"id" : 73,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["telescop.png", "luna.png", "soare.png", "cometa.png", "astronomy"],
+			"row2" : ["castel.png", "calaret.png", "sabie piatra.png", "arc cu sageata.png", "middle ages"],
+			"row3" : ["zombie.png", "emoticon frica", "om confuz.png", "emoticon bucurie.png", "face"],
+			"row4" : ["binoclu.png", "frigider.png", "lustra.png", "ananas.png", "other"],
+			"label" : "73",
+			"depends" : 0
+		}, {
+			"id" : 74,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["bec.png", "felinar.png", "lustra.png", "lumanare.png", "lights"],
+			"row2" : ["schiuri.png", "tac de biliard.png", "minge de fotbal.png", "minge de tenis.png", "sports"],
+			"row3" : ["ploaie.png", "fulger.png", "tornada.png", "soare.png", "weather"],
+			"row4" : ["banana.png", "mar.png", "pantofi.png", "scaun.png", "other"],
+			"label" : "74",
+			"depends" : 0
+		}, {
+			"id" : 75,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["gas mask.png", "pericol.png", "om frica.png", "crocodil.png", "danger"],
+			"row2" : ["iglu.png", "fulg de zapada.png", "aer conditionat.png", "frigider.png", "cold"],
+			"row3" : ["farfurii.png", "minge de tenis", "bratara.png", "roata de balci.png", "round"],
+			"row4" : ["fluture.png", "tac de biliard.png", "cutit.png", "dulap.png", "other"],
+			"label" : "75",
+			"depends" : 0
+		}, {
+			"id" : 76,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["scara confuzie.png", "emoticon confuzie.png", "ceasuri confuzie.png", "om confuz.png", "confusion"],
+			"row2" : ["toba.png", "vioara.png", "chitara.png", "trompeta.png", "instruments"],
+			"row3" : ["creion.png", "carte.png", "stilou.png", "caiet.png", "writing"],
+			"row4" : ["bocanci.png", "boxe.png", "fulg de zapada.png", "rosie.png", "other"],
+			"label" : "76",
+			"depends" : 0
+		}, {
+			"id" : 77,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["luneta.png", "tinta tir.png", "harta.png", "tinta.png", "target"],
+			"row2" : ["acuarele.png", "semafor.png", "curcubeu.png", "unicorn.png", "colors"],
+			"row3" : ["cufar.png", "poarta.png", "seif.png", "lacat.png", "locked"],
+			"row4" : ["pepene.png", "telefon.png", "mar.png", "avocado.png", "other"],
+			"label" : "77",
+			"depends" : 0
+		}, {
+			"id" : 78,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["carte 5.png", "eros.png", "porumbel.png", "emoticon sarut.png", "love"],
+			"row2" : ["elefant.png", "cerb.png", "tigru.png", "crocodil.png", "wild animal"],
+			"row3" : ["tinta tir.png", "cercuri olimpice.png", "roata de balci.png", "tinta.png", "circles"],
+			"row4" : ["patine.png", "rosie.png", "castravete.png", "ochelari de citit.png", "other"],
+			"label" : "78",
+			"depends" : 0
+		}, {
+			"id" : 79,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["tinta tir.png", "arc cu sageata.png", "arbaleta.png", "eros.png", "arrow"],
+			"row2" : ["sculptura africana.png", "tablou floare.png", "acuarele.png", "ulcele.png", "art"],
+			"row3" : ["felinar.png", "bec.png", "lustra.png", "lumanare.png", "lights"],
+			"row4" : ["aer conditionat.png", "umbrela de soare.png", "meteor.png", "cerb.png", "other"],
+			"label" : "79",
+			"depends" : 0
+		}, {
+			"id" : 80,
+			"rows" : 4,
+			"columns" : 4,
+			"row1" : ["porumbel.png", "eros.png", "fluture.png ", "pasare.png", "wings"],
+			"row2" : ["caine.png", "pat.png", "masa.png", "scaun.png", "four legs"],
+			"row3" : ["stop.png", "back.png", "open.png", "pericol.png", "sign"],
+			"row4" : ["binoclu.png", "lupa.png", "ochelari de citit.png", "masina.png", "other"],
+			"label" : "80",
+			"depends" : 0
+		}
+	],
+	"no_levels" : 80
+}

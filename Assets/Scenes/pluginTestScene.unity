@@ -1,0 +1,2078 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: 0.16666667
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &140918534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 140918536}
+  - 114: {fileID: 140918535}
+  m_Layer: 0
+  m_Name: AdMobAds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &140918535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 140918534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e4b1730a28c6454cb20d911f29e17cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasInterstitial: 0
+--- !u!4 &140918536
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 140918534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2760031, y: -0.33196768, z: -90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1618870694}
+  m_RootOrder: 1
+--- !u!1001 &412891071
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+  m_RootGameObject: {fileID: 1366534400}
+  m_IsPrefabParent: 0
+--- !u!1 &818303406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 818303407}
+  - 114: {fileID: 818303408}
+  m_Layer: 0
+  m_Name: VungleAds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &818303407
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818303406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1618870694}
+  m_RootOrder: 2
+--- !u!114 &818303408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818303406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5704ea8ace9fb4aa98a690eb76c69bde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AdAvailable: 0
+--- !u!1 &1235134918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1235134919}
+  - 114: {fileID: 1235134920}
+  m_Layer: 0
+  m_Name: ChartboostInterstitials
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1235134919
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235134918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.21560323, y: -0.4413063, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1618870694}
+  m_RootOrder: 0
+--- !u!114 &1235134920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235134918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 923fd5d880f14c9429c756290d1f3f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1366534400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+  m_PrefabInternal: {fileID: 412891071}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1366534402}
+  - 114: {fileID: 1366534401}
+  m_Layer: 0
+  m_Name: Chartboost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1366534401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a,
+    type: 2}
+  m_PrefabInternal: {fileID: 412891071}
+  m_GameObject: {fileID: 1366534400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3383cb82fbc2e49aab8618d3465e9246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1366534402
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+  m_PrefabInternal: {fileID: 412891071}
+  m_GameObject: {fileID: 1366534400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!1 &1507429538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1507429540}
+  - 114: {fileID: 1507429539}
+  m_Layer: 5
+  m_Name: FacebookManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1507429539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1507429538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37be7c790f328d341898d5647ba7df71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shareLink: http://tedrasoft.com/mismatched/mismatched.html
+  imageLink: http://tedrasoft.com/mismatched/img/iconOri.png
+  shareGUI: 0
+--- !u!4 &1507429540
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1507429538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0000038146973, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1749561391}
+  m_RootOrder: 2
+--- !u!1 &1527840022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1527840024}
+  - 114: {fileID: 1527840023}
+  m_Layer: 5
+  m_Name: IAP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1527840023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527840022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 976234eae1d061640aa8f4233850bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1527840024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527840022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1749561391}
+  m_RootOrder: 1
+--- !u!1 &1618870692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1618870694}
+  - 114: {fileID: 1618870693}
+  m_Layer: 0
+  m_Name: Ads
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1618870693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1618870692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5adb3a7e412e04eafddafc566dc0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cbAds: {fileID: 1235134920}
+  admobAds: {fileID: 140918535}
+  am2cbRatio: 2
+  admobTimes: 1
+  cbTimes: 1
+  TimesRequested: 0
+  RateToShow: 2
+--- !u!4 &1618870694
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1618870692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -52.992577, y: 90.617645, z: 0}
+  m_LocalScale: {x: 191.99994, y: 191.99994, z: 191.99994}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1235134919}
+  - {fileID: 140918536}
+  - {fileID: 818303407}
+  m_Father: {fileID: 1749561391}
+  m_RootOrder: 0
+--- !u!1 &1647759260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1647759265}
+  - 20: {fileID: 1647759264}
+  - 92: {fileID: 1647759263}
+  - 124: {fileID: 1647759262}
+  - 81: {fileID: 1647759261}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1647759261
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647759260}
+  m_Enabled: 1
+--- !u!124 &1647759262
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647759260}
+  m_Enabled: 1
+--- !u!92 &1647759263
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647759260}
+  m_Enabled: 1
+--- !u!20 &1647759264
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647759260}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1647759265
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647759260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &1744617259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1744617260}
+  - 114: {fileID: 1744617261}
+  m_Layer: 0
+  m_Name: Onesignal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744617260
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744617259}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.000011612359, y: 0.000011944142, z: 0}
+  m_LocalScale: {x: 191.99994, y: 191.99994, z: 191.99994}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1749561391}
+  m_RootOrder: 3
+--- !u!114 &1744617261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744617259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37386a7156871a644b8aa1a73241f9ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1749561385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1749561391}
+  - 114: {fileID: 1749561390}
+  - 114: {fileID: 1749561389}
+  - 114: {fileID: 1749561388}
+  - 114: {fileID: 1749561387}
+  - 114: {fileID: 1749561386}
+  m_Layer: 5
+  m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1749561386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749561385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e481c84c20ed144ad50029247f3fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  load: 0
+  save: 0
+--- !u!114 &1749561387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749561385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d3edf99e768764881c0eea920a7641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Views:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  uiLevelPackManager: {fileID: 0}
+  uiNoAds: {fileID: 0}
+  currentView: 0
+  packnum: 0
+  levelnum: 0
+--- !u!114 &1749561388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749561385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2367bf99b7e672459129d0abe2b371d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ImageAtlases:
+  - {fileID: 2800000, guid: 8c470749b497ac847adb6e31bb6ab5c9, type: 3}
+  KeepLoaded:
+  - {fileID: 2800000, guid: ea8abccd83910584d83e8cb45f844849, type: 3}
+  - {fileID: 2800000, guid: 105ef442a84b0874da15c42cfa53c793, type: 3}
+  - {fileID: 2800000, guid: 4811aa27d786e9145a4de7357163c6a8, type: 3}
+  SpriteLoaders:
+  - name: 2 cirese legate prin codita
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 0
+  - name: 8
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 1
+  - name: abac
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 2
+  - name: acuarele
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 3
+  - name: adidas
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 4
+  - name: aer conditionat
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 5
+  - name: ananas
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 6
+  - name: android
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 7
+  - name: anonymous
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 8
+  - name: aragaz
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 9
+  - name: arbaleta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 10
+  - name: arc cu sageata
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 11
+  - name: ardei
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 12
+  - name: armor
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 13
+  - name: artificii
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 14
+  - name: autobuz
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 15
+  - name: avion
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 16
+  - name: avocado
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 17
+  - name: back
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 18
+  - name: balon
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 19
+  - name: banana
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 20
+  - name: barca
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 21
+  - name: baseball bat
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 22
+  - name: bec
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 23
+  - name: bells
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 24
+  - name: bicicleta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 25
+  - name: binoclu
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 26
+  - name: bob
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 27
+  - name: bocanci
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 28
+  - name: boomerang
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 29
+  - name: boxe
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 30
+  - name: brad craciun
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 31
+  - name: brat
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 32
+  - name: bratara
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 33
+  - name: bull
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 34
+  - name: busola
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 35
+  - name: caciula
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 36
+  - name: cadou
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 37
+  - name: caiet
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 38
+  - name: caine
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 39
+  - name: cal
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 40
+  - name: cal sah
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 41
+  - name: calaret
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 42
+  - name: calculator
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 43
+  - name: calendar 13
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 44
+  - name: candy cane
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 45
+  - name: capcana animale
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 46
+  - name: card
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 47
+  - name: carma
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 48
+  - name: carte
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 49
+  - name: carte 5
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 50
+  - name: cartof dulce
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 51
+  - name: casa piatra
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 52
+  - name: casca 5
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 53
+  - name: castaniete
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 54
+  - name: castel
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 55
+  - name: casti
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 56
+  - name: castravete
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 57
+  - name: ceapa
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 58
+  - name: ceas de mana
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 59
+  - name: ceasuri confuzie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 60
+  - name: cerb
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 61
+  - name: cercei
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 62
+  - name: cercuri olimpice
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 63
+  - name: chitara
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 64
+  - name: clepsidra
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 65
+  - name: cola
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 66
+  - name: coliba
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 67
+  - name: cometa
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 68
+  - name: cort de carnaval
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 69
+  - name: costum
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 70
+  - name: cravata
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 71
+  - name: creion
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 72
+  - name: crenguta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 73
+  - name: crocodil
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 74
+  - name: cufar
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 75
+  - name: cuptor
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 76
+  - name: curcubeu
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 77
+  - name: cutit
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 78
+  - name: desteptator
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 79
+  - name: diamond
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 80
+  - name: digital
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 81
+  - name: dino
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 82
+  - name: dolari
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 83
+  - name: dulap
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 84
+  - name: echer
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 85
+  - name: egal
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 86
+  - name: eggs
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 87
+  - name: elefant
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 88
+  - name: elf
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 89
+  - name: emoticon bucurie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 90
+  - name: emoticon confuzie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 91
+  - name: emoticon frica
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 92
+  - name: emoticon sarut
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 93
+  - name: eros
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 94
+  - name: eyes
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 95
+  - name: fagure
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 96
+  - name: farfurii
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 97
+  - name: felinar
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 98
+  - name: fish hook
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 99
+  - name: fish tank
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 100
+  - name: flamenco dancer
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 101
+  - name: flori
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 102
+  - name: fluture
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 103
+  - name: foc
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 104
+  - name: foca
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 105
+  - name: frigider
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 106
+  - name: fulg de zapada
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 107
+  - name: fulger
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 108
+  - name: furca
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 109
+  - name: gaina
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 110
+  - name: gas mask
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 111
+  - name: geam
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 112
+  - name: ghiocel
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 113
+  - name: ghiozdan
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 114
+  - name: globulete
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 115
+  - name: grafic
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 116
+  - name: grebla
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 117
+  - name: haltera
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 118
+  - name: harta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 119
+  - name: hockey stick
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 120
+  - name: hood
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 121
+  - name: horn
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 122
+  - name: hot tea
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 123
+  - name: iepuras
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 124
+  - name: iglu
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 125
+  - name: imprimanta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 126
+  - name: inel
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 127
+  - name: inima
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 128
+  - name: instalatie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 129
+  - name: jfk
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 130
+  - name: keyboard
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 131
+  - name: lacat
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 132
+  - name: lanseta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 133
+  - name: lincoln
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 134
+  - name: lingura
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 135
+  - name: lopata
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 136
+  - name: lumanare
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 137
+  - name: luna
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 138
+  - name: luneta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 139
+  - name: lupa
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 140
+  - name: lustra
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 141
+  - name: mamut
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 142
+  - name: maneki neko
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 143
+  - name: manusi
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 144
+  - name: mar
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 145
+  - name: masa
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 146
+  - name: masina
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 147
+  - name: masti teatru
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 148
+  - name: meteor
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 149
+  - name: microfon
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 150
+  - name: minge de fotbal
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 151
+  - name: minge de tenis
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 152
+  - name: mitraliera
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 153
+  - name: monitor
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 154
+  - name: monument
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 155
+  - name: morcov
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 156
+  - name: mosu
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 157
+  - name: motocicleta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 158
+  - name: mouse
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 159
+  - name: mouse trap
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 160
+  - name: munte
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 161
+  - name: muscle car
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 162
+  - name: nod
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 163
+  - name: nuca de cocos
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 164
+  - name: nuke
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 165
+  - name: obama
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 166
+  - name: ochelari de citit
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 167
+  - name: ochelari de soare
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 168
+  - name: oglinda crapata
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 169
+  - name: om confuz
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 170
+  - name: om frica
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 171
+  - name: om injured
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 172
+  - name: one dolar
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 173
+  - name: open
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 174
+  - name: operatie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 175
+  - name: pahar
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 176
+  - name: palma
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 177
+  - name: pantofi
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 178
+  - name: parthenon
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 179
+  - name: pasare
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 180
+  - name: pat
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 181
+  - name: pat etajat
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 182
+  - name: patine
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 183
+  - name: pepene
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 184
+  - name: pericol
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 185
+  - name: picaturi
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 186
+  - name: picior oase
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 187
+  - name: pinguin
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 188
+  - name: pisica
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 189
+  - name: pisica neagra
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 190
+  - name: pistol
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 191
+  - name: planta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 192
+  - name: planta carnivora
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 193
+  - name: plasa pescuit
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 194
+  - name: ploaie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 195
+  - name: poarta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 196
+  - name: politist stop
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 197
+  - name: porc
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 198
+  - name: portocala
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 199
+  - name: porumbel
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 200
+  - name: potcoava
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 201
+  - name: prajitura
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 202
+  - name: pusca cu luneta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 203
+  - name: rac
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 204
+  - name: ren
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 205
+  - name: ritm
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 206
+  - name: roaba
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 207
+  - name: roata de balci
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 208
+  - name: rosie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 209
+  - name: rushmore
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 210
+  - name: sabertooth
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 211
+  - name: sabie piatra
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 212
+  - name: sandale
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 213
+  - name: sanie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 214
+  - name: santa hat
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 215
+  - name: sapa
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 216
+  - name: scafandru
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 217
+  - name: scara
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 218
+  - name: scara confuzie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 219
+  - name: scaun
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 220
+  - name: schiuri
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 221
+  - name: sculptura africana
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 222
+  - name: scut
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 223
+  - name: seif
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 224
+  - name: semafor
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 225
+  - name: shark
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 226
+  - name: siluete
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 227
+  - name: snowman
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 228
+  - name: soare
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 229
+  - name: soarece frica
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 230
+  - name: spate
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 231
+  - name: statuie piatra
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 232
+  - name: stea
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 233
+  - name: stea brad
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 234
+  - name: steagul greciei
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 235
+  - name: steagul spaniei
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 236
+  - name: sticla sampanie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 237
+  - name: stilou
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 238
+  - name: stop
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 239
+  - name: tablou floare
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 240
+  - name: tac de biliard
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 241
+  - name: tank
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 242
+  - name: taxi
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 243
+  - name: telefon
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 244
+  - name: telescop
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 245
+  - name: televizor
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 246
+  - name: termometru
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 247
+  - name: tigaie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 248
+  - name: tigru
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 249
+  - name: tinta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 250
+  - name: tinta tir
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 251
+  - name: tir
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 252
+  - name: toba
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 253
+  - name: tornada
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 254
+  - name: trifoi
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 255
+  - name: trompeta
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 256
+  - name: turn cu ceas
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 257
+  - name: turtule
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 258
+  - name: turture
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 259
+  - name: ulcele
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 260
+  - name: umbrela de ploaie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 261
+  - name: umbrela de soare
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 262
+  - name: unicorn
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 263
+  - name: unu
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 264
+  - name: urs polar
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 265
+  - name: usa
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 266
+  - name: usturoi
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 267
+  - name: vasc
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 268
+  - name: venetia
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 269
+  - name: vioara
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 270
+  - name: volan
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 271
+  - name: washington
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 272
+  - name: white house
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 273
+  - name: xy
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 274
+  - name: zar 5
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 275
+  - name: zid de piatra
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 276
+  - name: zombie
+    atlas:
+      path: Images/ImgPackBase
+      name: ImgPackBase
+    indexInAtlas: 277
+  AtlasLoaders:
+  - path: Images/ImgPackBase
+    name: ImgPackBase
+  preloadedTexture: {fileID: 0}
+  preload: 0
+--- !u!114 &1749561389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749561385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738e6948a8344ae428b7af95456000d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doDebugLoading: 0
+  LevelPacks: []
+--- !u!114 &1749561390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749561385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b637fd70d78014198e319b719b26b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageManager: {fileID: 1749561388}
+  levelsLoader: {fileID: 1749561389}
+  playControl: {fileID: 0}
+  viewsControl: {fileID: 1749561387}
+  playerData: {fileID: 1749561386}
+  soomlaManager: {fileID: 1527840023}
+  facebookManager: {fileID: 1507429539}
+  adsManager: {fileID: 1618870693}
+  levelsLoaded: 0
+  playerDataLoaded: 0
+  HintsRemaining: 7
+  unloadAll: 0
+--- !u!4 &1749561391
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749561385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.005208335, y: 0.005208335, z: 0.005208335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1618870694}
+  - {fileID: 1527840024}
+  - {fileID: 1507429540}
+  - {fileID: 1744617260}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
